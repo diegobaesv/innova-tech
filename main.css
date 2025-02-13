@@ -1,9 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+ul {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     background-color: var(--color-fondo-principal);
 }
 
-h1 {
-    color: var(--color-fondo-principal);
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
 }
