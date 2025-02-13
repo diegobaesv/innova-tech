@@ -32,4 +32,10 @@ header nav ul {
 header nav ul a {
     color: white;
     text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+header nav ul a:hover {
+    background-color: var(--color-fondo-secundario);
 }
