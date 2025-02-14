@@ -1,0 +1,8 @@
+.container-banner {
+    width: 100%;
+    height: 300px;
+}
+
+.container-banner img {
+    border-radius: 25px;
+}

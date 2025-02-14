@@ -3,11 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: var(--color-fondo-principal);
     display: flex;
@@ -26,7 +21,9 @@ header nav ul {
     height: 100%;
     flex-wrap: wrap;
     align-content: center;
-    gap: 15px
+    gap: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul a {
@@ -39,4 +36,8 @@ header nav ul a {
 
 header nav ul a:hover {
     background-color: var(--color-fondo-secundario);
+}
+
+main {
+    padding: 10px;
 }
