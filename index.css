@@ -11,14 +11,15 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    gap: 5px;
+    gap: 16px;
 }
 
 .categoria-card{
     background-color: #efefef;
     border-radius: 15px;
     padding: 15px;
-    width: auto;
+    width: 140px;
+    flex-shrink: 0;
 }
 
 .categoria-card:hover{
