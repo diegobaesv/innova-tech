@@ -1,0 +1,9 @@
+.detalle-container{
+    display: flex;
+    gap: 10px;
+}
+
+.titulo-producto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+}
