@@ -1,0 +1,14 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nombre": "Teclados",
+            "urlImagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/8802955_01/w=800,h=800,fit=pad"
+        },
+        {
+            "id": 2,
+            "nombre": "Procesadores",
+            "urlImagen": "https://estaticos-cdn.prensaiberica.es/clip/dcf46d9b-43bc-4146-8ee6-2f97c5df1642_source-aspect-ratio_default_0.jpg"
+        }
+    ]
+}
