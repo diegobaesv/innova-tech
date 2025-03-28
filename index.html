@@ -29,10 +29,6 @@
             </div>
     
             <div id="id-categorias-container" class="categorias-container">
-                <!--a href="app/productos" class="categoria-card">
-                    <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/8802955_01/w=800,h=800,fit=pad" alt="banner 1" height="100px" width="100px">
-                    <p>Teclados</p>
-                </a-->
             </div>
         </div>
     </main>
@@ -45,5 +41,43 @@
 <script>
     const categoriasContainer = document.getElementById('id-categorias-container');
     console.log(categoriasContainer);
+
+    async function cargarCategorias(){
+        console.log('He iniciado con el proceso de la funcion cargarCategorias')
+        const result = await fetch('http://localhost:3000/categorias');
+        const data = await result.json();
+        console.log('data::',data);
+
+        for (let i = 0; i < data.length; i++) {
+            const categoria = data[i];
+
+            const categoriaCard = document.createElement('a');
+            categoriaCard.setAttribute('href','app/productos');
+            categoriaCard.setAttribute('class','categoria-card');
+
+            const img = document.createElement('img');
+            img.setAttribute('src',categoria.urlImagen)
+            img.setAttribute('alt',categoria.nombre);
+            img.setAttribute('height','100px');
+            img.setAttribute('width','100px');
+
+            const parrafo = document.createElement('p');
+            parrafo.textContent = categoria.nombre;
+            
+            categoriaCard.appendChild(img);
+            categoriaCard.appendChild(parrafo);
+
+            categoriasContainer.appendChild(categoriaCard);
+        }
+
+    }
+
+    
+    cargarCategorias();
+
+    
+
+
+
 </script>
 </html>
