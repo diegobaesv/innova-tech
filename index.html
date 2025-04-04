@@ -52,7 +52,7 @@
             const categoria = data[i];
 
             const categoriaCard = document.createElement('a');
-            categoriaCard.setAttribute('href','app/productos');
+            categoriaCard.setAttribute('href',`app/productos/?idCategoria=${categoria.id}`);
             categoriaCard.setAttribute('class','categoria-card');
 
             const img = document.createElement('img');

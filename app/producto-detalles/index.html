@@ -24,19 +24,15 @@
 
     <main>
         <div class="main-container">
-            <h1 class="titulo-producto">Tablet Lenovo M9 HD 9" Wi-Fi, 64GB, 4GB RAM, cámara principal 8MP, frontal 2MP, 5100 mAh, azul </h1>
+            <h1 id="id-titulo-producto" class="titulo-producto"></h1>
             <div class="detalle-container">
                 <div class="detalle-img">
-                    <img src="https://coolboxpe.vtexassets.com/arquivos/ids/371690-1200-1200?v=638539754322600000&width=1200&height=1200&aspect=true" alt="banner 1" height="400px" width="400px">
+                    <img id="id-imagen-producto" src="" alt="banner 1" height="400px" width="400px">
                 </div>
                 <div class="contenido-img">
-                    <p>La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo  elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de
-                        almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP
-                         y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la
-                         convierte en una compañera versátil para el día a día. <br>Codigo: ZAC30104PE <br>Precio: S/499.99
-                    </p>
-                    <p >Codigo: ZAC30104PE</p>
-                    <p >Precio: S/499.99</p>
+                    <p id="id-descripcion-producto"></p>
+                    <p id="id-codigo"></p>
+                    <p id="id-precio"></p>
                     <button>+</button>
                     <span>cantidad</span>
                     <button>-</button>
@@ -47,4 +43,32 @@
     </main>
     
 </body>
+<script>
+
+    async function cargarProductoDetalle(){
+        const queryString = window.location.search;
+        console.log('queryString',queryString);
+
+        const params = new URLSearchParams(queryString);
+        const idProducto = params.get('idProducto');
+
+        console.log('idProducto',idProducto);
+
+        const result = await fetch(`http://localhost:3000/productos?id=${idProducto}`);
+        const data = await result.json();
+        console.log('data::', data);
+
+        const producto = data[0];
+
+        document.getElementById('id-titulo-producto').textContent=producto.nombre;
+        document.getElementById('id-descripcion-producto').textContent=producto.descripcion;
+        document.getElementById('id-codigo').textContent=`Codigo: ${producto.codigo}`;
+        document.getElementById('id-precio').textContent=`S/. ${producto.precio}`;
+        document.getElementById('id-imagen-producto').setAttribute('src',producto.urlImagen);
+
+    }
+    
+    cargarProductoDetalle();
+
+</script>
 </html>

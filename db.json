@@ -24,12 +24,122 @@
     "productos": [
         {
             "id": 1,
-            "nombre": "teclado ryzen rgb",
+            "nombre": "Teclado Ryzen RGB",
             "precio": 300.40,
-            "codigo": "TEC00012025",
-            "stock": 10,
-            "imagenUrl": "https//..",
-            "idCategoria": 1
+            "codigo": "AB123",
+            "stock":10,
+            "urlImagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/8802955_01/w=800,h=800,fit=pad",
+            "idCategoria":1,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        },
+        {
+            "id": 2,
+            "nombre": "Teclado gamer Logitech G Pro",
+            "precio": 200,
+            "codigo": "SBFD234",
+            "stock":112,
+            "urlImagen": "https://coolboxpe.vtexassets.com/arquivos/ids/239844-300-300?v=638053567445100000&width=300&height=300&aspect=true",
+            "idCategoria":1,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        },{
+            "id":3,
+            "nombre":"Teclado alámbrico membrana",
+            "precio":100.00,
+            "codigo":"ASDF123",
+            "stock":12,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/382076-800-800?v=638598700262570000&width=800&height=800&aspect=true",
+            "idCategoria":1,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":4,
+            "nombre":"Procesador AMD Ryzen 5 4600G",
+            "precio":1233.00,
+            "codigo":"ASDFF123",
+            "stock":5,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/218661-800-800?v=637928208492500000&width=800&height=800&aspect=true",
+            "idCategoria":2,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":5,
+            "nombre":"Procesador Intel Core i3-13100",
+            "precio":1500.00,
+            "codigo":"QWER123",
+            "stock":6,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/347295-800-800?v=638440860656000000&width=800&height=800&aspect=true",
+            "idCategoria":2,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":6,
+            "nombre":"Procesador AMD ATHLON 3000G",
+            "precio":219.90,
+            "codigo":"AMD300",
+            "stock":300,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/343167-800-800?v=638430016084170000&width=800&height=800&aspect=true",
+            "idCategoria":2,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":7,
+            "nombre":"Fuente de poder Teros TE-7160 600W",
+            "precio":129.90,
+            "codigo":"TER716",
+            "stock":123,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/336560-800-800?v=638406072164170000&width=800&height=800&aspect=true",
+            "idCategoria":3,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":8,
+            "nombre":"Fuente-poder Corsair RM850x",
+            "precio":477.90,
+            "codigo":"RMO56",
+            "stock":78,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/402307-800-800?v=638677113944600000&width=800&height=800&aspect=true",
+            "idCategoria":3,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":9,
+            "nombre":"Fuente de poder Antryx Kirin",
+            "precio":399.90,
+            "codigo":"HIR12",
+            "stock":56,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/372722-800-800?v=638545207335600000&width=800&height=800&aspect=true",
+            "idCategoria":3,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":10,
+            "nombre":"Placa madre Asrock B450M",
+            "precio":599.90,
+            "codigo":"ASR87",
+            "stock":56,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/371505-800-800?v=638538964151470000&width=800&height=800&aspect=true",
+            "idCategoria":4,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":11,
+            "nombre":"Placa madre MSI B760M gaming Plus",
+            "precio":899.90,
+            "codigo":"MSI54",
+            "stock":78,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/420463-800-800?v=638744471293330000&width=800&height=800&aspect=true",
+            "idCategoria":4,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
+        }
+        ,{
+            "id":12,
+            "nombre":"Placa madre H610M DDR5 LGA1700",
+            "precio":876.90,
+            "codigo":"DDR170",
+            "stock":45,
+            "urlImagen":"https://coolboxpe.vtexassets.com/arquivos/ids/420550-800-800?v=638744512631470000&width=800&height=800&aspect=true",
+            "idCategoria":4,
+            "descripcion": "La Tablet Lenovo M9 HD de 9 pulgadas es un dispositivo elegante disponible en dos tonos: Arctic Grey y Frost Blue. Con 64GB de almacenamiento y 4GB de RAM, su diseño fino y ligero la hace perfecta para llevar a cualquier lugar. La cámara principal de 8MP y la frontal de 2MP son ideales para capturar momentos y realizar videollamadas con claridad. Su diseño moderno y funcional la convierte en una compañera versátil para el día a día."
         }
     ]
 }
